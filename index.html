@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href = "estilo.css">
+</head>
+<body>
+    <div id="caixa">
+        <div>
+            <h1>Pokemon Wiki</h1>
+        </div>
+        <div class="imagem"><img src="imagens/pokemon.gif"
+            alt="Pokemons" width="500px">
+        </div>
+        <div>
+            <label for="nomePokemon">Digite o nome do pokemon</label>
+            <br>
+            <input type="text" id="nomePokemon">
+            <br>
+            <button id="buscar" onclick="buscaPokemon()">Buscar Pokemon🐲</button>
+        </div>
+        <div class="infoPokemon">
+            
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome">
+
+            <label for="peso">Peso: </label>
+            <input type="text" id="peso">
+
+            <label for="altura">Peso do Pokemon: </label>
+            <input type="text" id="altura">
+        
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

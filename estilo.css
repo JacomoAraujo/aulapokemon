@@ -1,0 +1,15 @@
+body{
+    background-image:url(imagens/fundo.png) ;
+   
+}
+#imagem{
+    align-items: center;
+}
+#caixa{
+    text-align: center;
+    align-items: center;
+    width: 400px;
+}
+#infoPokemon{
+    display: block;
+}
